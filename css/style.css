@@ -38,6 +38,12 @@ h1{
     text-decoration: none;
 }
 
+a.nav-link.active.px-lg-4.rounded {
+    border-bottom: 3px solid orange;
+
+    
+}
+
 /* hero section start */
 .main{
     
