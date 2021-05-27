@@ -529,7 +529,9 @@ h1{
     color: #fff;
 }
 
-
+.fixed-top {
+    border-bottom:.5px solid rgb(235, 235, 235);
+}
 
 
 
