@@ -1,0 +1,535 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-size: bold;
+    text-transform: capitalize;
+    color: #3c3c3c;
+}
+
+.navbar{
+    background-color:#fff;
+
+}
+
+.nav-link{
+    color: orange;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #fff;
+    background-color: orange;
+}
+
+.navbar-brand{
+    font-size: 1.25rem;
+    color: orange;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* hero section start */
+.main{
+    
+    background: url('/images/bg_1.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+
+.text_part{
+    margin-top: 200px;
+   
+}
+
+.main span{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+.main h6{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #494949;
+    text-transform: uppercase;
+    border-bottom: 3px solid  orange;
+    width: 21%;
+    margin-top: 20px;
+
+}
+
+.button_first{
+    margin-top: 50px;
+}
+
+.btn{
+    height: 55px;
+    width: 148px;
+    background: orange;
+    color: #fff;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+
+.btn:hover{
+    background-color:rgb(207, 159, 69);
+    transition: 0.5s;
+}
+
+
+
+
+.btn_mi{
+    margin-left: 20px;
+    height: 55px;
+    width: 148px;
+    background: transparent;
+    color: orange;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px solid orange;
+}
+.btn_mi:hover{
+    background-color:rgb(207, 159, 69);
+    transition: 0.5s;
+    border: 1px solid rgb(207, 159, 69);
+    color: #fff;
+}
+
+.about{
+    padding: 100px 0px 50px 0px;
+}
+
+.image-section img{
+    width: 500px;
+    height: 550px;
+    border: 10px solid orange; 
+    border-radius: 15px;   
+}
+
+.text-section{
+    padding: 0px 15px;
+}
+
+
+.progress{
+    background-color: rgb(189, 186, 182);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.progress span{
+    color: re#fff;
+    float: right;
+   font-weight: bold;
+}
+
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: orange;
+    height: 30px;
+    width: 0;
+}
+
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: orange;
+    height: 30px;
+    width: 0;
+}
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: orange;
+    height: 30px;
+    width: 0;
+}
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: orange;
+    height: 30px;
+    width: 0;
+}
+
+.progress p{
+    color: white;
+    padding:3px 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+@keyframes load1{
+    0%{
+        width:0 ;
+    }
+    100%{
+        width: 97%;
+    }
+}
+@keyframes load2{
+    0%{
+        width:0 ;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes load3{
+    0%{
+        width:0 ;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes load4{
+    0%{
+        width:0 ;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+
+.sec-but{
+    margin-top: 80px;
+}
+
+
+
+.services-sec{
+    padding: 50px 0px;
+    
+}
+
+.services-sec h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box{
+    margin: 40px 0px 0px 0px;   
+    border: none;
+    outline: none;
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    text-align: center;
+    padding: 30px;
+}   
+.sub-header{
+    color: #3c3c3c;
+    padding: 50px 0px;
+    text-align: center;
+
+}
+
+.corcle{
+    color: gray;
+    padding: 15px;
+    display: inline-block;
+    margin:22px 0px;
+    width: 90px;
+    height: 90px;
+    background-color: lightgray;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+  
+}
+
+
+.box:hover .corcle{
+    background-color: orange;
+    color: #fff;
+} 
+
+
+.header-filter ul{
+    display: flex;
+    margin-top: 10px;
+   
+
+}
+
+.header-filter ul li{
+    list-style: none;
+    background: #eee;
+    padding: 8px 12px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+
+}
+
+.header-filter ul li.active{
+    background: orange;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.products .iteamBox{
+    transition: ease-in-out 8s;
+    position: relative;
+    width:500px;
+    height: 400px;
+    margin: 20px;
+    -webkit-box-shadow: -75px 6px 89px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow: -75px 6px 89px -65px rgba(0,0,0,0.75);
+    box-shadow: -75px 6px 89px -65px rgba(0,0,0,0.75);
+    
+  
+    
+}
+
+
+
+.products .iteamBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.one{
+    background-image: url('/images/protfolio_04.png');
+    background-position: top;
+    background-size: cover;
+}
+
+.one:hover{
+    background-position: bottom;
+}
+
+
+.two{
+    background-image: url('/images//protfolio_01.png');
+    background-position: top;
+    background-size: cover;
+}
+
+.two:hover{
+    background-position: bottom;
+}
+
+.three{
+    background-image: url('/images/agency (1).png');
+    background-position: top;
+    background-size: cover;
+}
+
+.three:hover{
+    background-position: bottom;
+}
+
+.four{
+    background-image: url('/images/multipurpose (1).png');
+    background-position: top;
+    background-size: cover;
+}
+
+.four:hover{
+    background-position: bottom;
+}
+.five{
+    background-image: url('/images/protfolio_02.png');
+    background-position: top;
+    background-size: cover;
+}
+
+.five:hover{
+    background-position: bottom;
+}
+
+
+.six{
+    background-image: url('/images/agency (2).png');
+    background-position: top;
+    background-size: cover;
+}
+
+.six:hover{
+    background-position: bottom;
+}
+
+
+.seven{
+    background-image: url('/images/multipurpose (2).png');
+    background-position: top;
+    background-size: cover;
+}
+
+.seven:hover{
+    background-position: bottom;
+}
+
+.eight{
+    background-image: url('/images/agency (3).png');
+    background-position: top;
+    background-size: cover;
+}
+
+.eight:hover{
+    background-position: bottom;
+}
+
+.nine{
+    background-image: url('/images/multipurpose\ \(3\).png');
+    background-position: top;
+    background-size: cover;
+    
+}
+
+.nine:hover{
+    background-position: bottom;
+}
+
+.ten{
+    background-image: url('/images/multipurpose (3).png');
+    background-position: top;
+    background-size: cover;
+}
+
+.ten:hover{
+    background-position: bottom;
+}
+.eleven{
+    background-image: url('/images/multipurpose (1).png');
+    background-position: top;
+    background-size: cover;
+}
+
+.eleven:hover{
+    background-position: bottom;
+}
+
+
+.twlv{
+    background-image: url('/images/agency (4).png');
+    background-position: top;
+    background-size: cover;
+}
+
+.twlv:hover{
+    background-position: bottom;
+}
+
+.terteen{
+    background-image: url('/images/multipurpose (4).png');
+    background-position: top;
+    background-size: cover;
+}
+
+.terteen:hover{
+    background-position: bottom;
+}
+
+
+.blog{
+    padding: 50px 0px;
+}
+
+.blog-del img{
+    width: 350px;
+    height: 350px;
+}
+.blog-del{
+    padding: 10px;
+}
+
+
+
+.hed{
+ padding: 20px 0px;   
+}
+
+.det{
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-justify: auto;
+    }
+
+.blog-li {
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+   
+}
+
+.box1{
+    text-align: center;
+}
+
+.box1 i{
+    color: orange;
+}
+
+.form-dd{
+    text-align: center;
+}
+
+
+
+.foter-dx{
+    background-color: orange;
+    color: #fff;
+    min-height: 10px;
+    text-align: center;
+    padding: 5px 0px;
+    text-decoration: none;
+
+}
+
+.foter-dx a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
